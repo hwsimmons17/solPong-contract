@@ -1,0 +1,12 @@
+[programs.localnet]
+pong_contract = "9UrX38GgCX7EuYvzye6GzkfN2X38DiM7xF2isWGbpzdQ"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/my-solana-wallet/my-keypair.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
